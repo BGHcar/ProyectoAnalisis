@@ -7,11 +7,12 @@ def main():
     """Inicializar el aplicativo."""
     profiler_manager.enabled = True
 
-    aplicacion.pagina_sample_network = "B"
+    aplicacion.pagina_sample_network = "A"
 
     print(f"{aplicacion.pagina_sample_network=}")
 
-    iniciar()
+    sistema_candidato = "ABCDEFGHIJ"  # Puedes cambiar el sistema candidato aquí
+    iniciar(sistema_candidato)
 
 
 if __name__ == "__main__":

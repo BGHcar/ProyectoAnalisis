@@ -1,8 +1,6 @@
 from src.controllers.manager import Manager
 from src.controllers.strategies.q_nodes import QNodes
 from src.controllers.strategies.phi import Phi
-from src.middlewares.observer import DebugObserver
-from src.middlewares.profile import profiler_manager
 
 
 def generar_alcance(patron, sistema_candidato):
@@ -24,7 +22,6 @@ def generar_alcance(patron, sistema_candidato):
         return "1" * (n - 2) + "01"
     else:
         raise ValueError("Patrón no válido")
-    
 
 def iniciar(sistema_candidato):
     """Punto de entrada principal"""
@@ -48,24 +45,21 @@ def iniciar(sistema_candidato):
         "desaparece_penultimo"
     ]
     
-    # Iterar sobre los patrones
-    for patron in patrones:
+    # Iterar sobre los patrones de t+1
+    for patron_t1 in patrones:
         # Generar alcance (t+1) basado en el patrón
-        alcance = generar_alcance(patron, sistema_candidato)
+        alcance = generar_alcance(patron_t1, sistema_candidato)
         
-        # Mecanismo (t) siempre es todo 1
-        mecanismo = "1" * len(sistema_candidato)
-        
-        # Aplicar la estrategia QNodes
-        analizador_fb = QNodes(config_sistema)
-        resultado = analizador_fb.aplicar_estrategia(condiciones, alcance, mecanismo)
-        
-        # Mostrar resultados
-        print(f"Patrón: {patron}")
-        print(f"Alcance: {alcance}")
-        print(f"Resultado: {resultado}\n")
-
-# Ejemplo de uso
-sistema_candidato = "ABCDEFGHIJ"  # Puedes cambiar el sistema candidato aquí
-iniciar(sistema_candidato)
-
+        # Iterar sobre los patrones de t
+        for patron_t in patrones:
+            # Mecanismo (t) siempre es todo 1
+            mecanismo = "1" * len(sistema_candidato)
+            
+            # Aplicar la estrategia QNodes
+            analizador_fb = QNodes(config_sistema)
+            resultado = analizador_fb.aplicar_estrategia(condiciones, alcance, mecanismo)
+            
+            # Mostrar resultados
+            print(f"t+1: {patron_t1} | t: {patron_t}")
+            print(f"Alcance: {alcance}")
+            print(f"Resultado: {resultado}\n")
