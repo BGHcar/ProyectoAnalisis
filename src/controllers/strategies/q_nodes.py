@@ -108,14 +108,18 @@ class QNodes(SIA):
         self.logger = SafeLogger("q_strat")
 
     # @profile(context={"type": "q_analysis"})
-    def aplicar_estrategia(self, conditions, purview, mechansim):
-        self.sia_preparar_subsistema(conditions, purview, mechansim)
+    def aplicar_estrategia(self, conditions, alcance, mecanismo):
+        self.sia_preparar_subsistema(conditions, alcance, mecanismo)
 
-        purv = tuple((EFECTO, pur) for pur in self.sia_subsistema.indices_ncubos)
-        mech = tuple((ACTUAL, mec) for mec in self.sia_subsistema.dims_ncubos)
+        futuro = tuple(
+            (EFECTO, efecto) for efecto in self.sia_subsistema.indices_ncubos
+        )
+        presente = tuple(
+            (ACTUAL, actual) for actual in self.sia_subsistema.dims_ncubos
+        )  #
 
-        self.m = len(self.sia_subsistema.indices_ncubos)
-        self.n = len(self.sia_subsistema.dims_ncubos)
+        self.m = self.sia_subsistema.indices_ncubos.size
+        self.n = self.sia_subsistema.dims_ncubos.size
 
         self.indices_alcance = self.sia_subsistema.indices_ncubos
         self.indices_mecanismo = self.sia_subsistema.dims_ncubos
@@ -125,8 +129,8 @@ class QNodes(SIA):
             np.zeros(self.m, dtype=np.int8),
         )
 
-        vertices = list(mech + purv)
-        self.vertices = set(mech + purv)
+        vertices = list(presente + futuro)
+        self.vertices = set(presente + futuro)
         mip = self.algorithm(vertices)
 
         fmt_mip = fmt_biparte_q(list(mip), self.nodes_complement(mip))

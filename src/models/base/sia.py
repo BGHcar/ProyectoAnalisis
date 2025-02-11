@@ -91,9 +91,15 @@ class SIA(ABC):
         # self.sia_logger.debug(candidato)
 
         subsistema = candidato.substraer(dims_alcance, dims_mecanismo)
+<<<<<<< HEAD
         # self.sia_logger.warn("Subsys:")
         # self.sia_logger.debug(f"{dims_alcance, dims_mecanismo=}")
         # self.sia_logger.error(subsistema)
+=======
+        self.sia_logger.critic("Subsys:")
+        self.sia_logger.debug(f"{dims_alcance, dims_mecanismo=}")
+        self.sia_logger.debug(subsistema)
+>>>>>>> 9bf2811578de106f86f5b019539ec3bafa565473
 
         self.sia_subsistema = subsistema
         self.sia_dists_marginales = subsistema.distribucion_marginal()

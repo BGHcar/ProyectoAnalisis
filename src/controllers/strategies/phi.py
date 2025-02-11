@@ -82,10 +82,10 @@ class Phi(SIA):
             repertorio_partido = mip.partitioned_repertoire.flatten()
 
             states = int(math.log2(mip.repertoire.size))
-            sub_states: np.ndarray = lil_endian(states)
+            sub_estados: np.ndarray = lil_endian(states)
 
-            repertorio.put(sub_states, repertorio)
-            repertorio_partido.put(sub_states, repertorio_partido)
+            repertorio.put(sub_estados, repertorio)
+            repertorio_partido.put(sub_estados, repertorio_partido)
 
             mejor_biparticion: Bipartition = mip.partition
             prim: Part = mejor_biparticion.parts[True]

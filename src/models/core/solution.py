@@ -259,9 +259,9 @@ class Solution:
 {Fore.RED}{self.estrategia} fue la estrategia de solucion.
 
 {Fore.BLUE}Distancia métrica utilizada:
-{Style.RESET_ALL}{aplicacion.distancia_metrica}
+{Fore.WHITE}{aplicacion.distancia_metrica}
 {Fore.BLUE}Notación utilizada en indexación:
-{Style.RESET_ALL}{aplicacion.notacion}
+{Fore.WHITE}{aplicacion.notacion}
 
 {Fore.YELLOW}Distribucion {tipo_distribucion} del Subsistema:
 {Style.RESET_ALL}{formatear_distribucion(self.distribucion_subsistema)}
