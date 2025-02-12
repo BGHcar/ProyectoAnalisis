@@ -242,9 +242,11 @@ class Solution:
             )
             return f"[ {datos}{mensaje_desborde} {Fore.WHITE}]"
 
+        """         
         if self.hablar:
             voz = Thread(target=self.__anunciar_solucion)
-            voz.start()
+            voz.start() 
+        """
 
         es_pyphi = self.estrategia == "Pyphi"
         tipo_distribucion = "" if es_pyphi else "marginal"
