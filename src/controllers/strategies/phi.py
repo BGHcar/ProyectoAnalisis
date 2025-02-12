@@ -97,6 +97,7 @@ class Phi(SIA):
                 [dual_mech, dual_purv],
                 [prim_mech, prim_purv],
             )
+            
 
         return Solution(
             estrategia="Pyphi",
