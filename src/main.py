@@ -11,7 +11,7 @@ class ResultadosAnalisis:
         self.results_dir.mkdir(exist_ok=True)
         
         timestamp = time.strftime('%Y%m%d_%H%M%S')
-        self.results_file = self.results_dir / f'resultados_phy10A.txt'
+        self.results_file = self.results_dir / f'resultados_phy20A.txt'
         
         # Inicializar archivo
         with open(self.results_file, 'w', encoding='utf-8') as f:
@@ -112,7 +112,7 @@ class SistemaAnalisis:
                     
                     mecanismo = "1" * len(self.sistema_candidato)
                     
-                    analizador_fb = Phi(self.config_sistema)
+                    analizador_fb = QNodes(self.config_sistema)
                     resultado = analizador_fb.aplicar_estrategia(
                         self.condiciones, 
                         alcance, 
