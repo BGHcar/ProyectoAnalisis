@@ -12,8 +12,8 @@ def main():
 
     print(f"{aplicacion.pagina_sample_network=}")    
 
-    sistema_candidato = "ABCDEFGHIJ"  # Puedes cambiar el sistema candidato aquí
-    iniciar(sistema_candidato)
+    sistema_candidato = "ABCDEFGHIJKLMNOPQRST"  # Puedes cambiar el sistema candidato aquí
+    iniciar()
     
 
 if __name__ == "__main__":
