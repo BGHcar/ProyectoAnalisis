@@ -1,0 +1,75 @@
+===== RESUMEN DE PROCESAMIENTO POR BLOQUES (PARALELO) =====
+
+Tamaño de matriz: 2048x2048
+Tamaño de bloques: 16x16
+Número total de bloques: 16384
+Número de procesos utilizados: 16
+
+--- Estadísticas Globales ---
+Bloques relevantes: 16384 (100.00%)
+Bloques procesados: 16384
+Bloques ignorados: 0 (0.00%)
+Suma total de elementos: -240.9718
+Valores no cero: 760197
+Densidad global: 18.1245%
+Densidad promedio en bloques relevantes: 18.1245%
+
+--- Rendimiento Paralelo ---
+Tiempo total de procesamiento: 438.02 segundos
+Tiempo de procesamiento puro: 214.74 segundos
+Tiempo promedio por bloque: 0.2035 segundos
+Tiempo secuencial estimado: 3334.63 segundos
+Speedup: 15.53x
+Eficiencia: 97.05%
+
+--- Bloques con mayor densidad ---
+1. Bloque (98, 1):
+   - Densidad: 28.12%
+   - Suma: -2.3434
+   - Min/Max: -3.2520/3.5628
+   - Media: -0.0092
+2. Bloque (72, 28):
+   - Densidad: 27.73%
+   - Suma: -15.4065
+   - Min/Max: -2.7089/2.4549
+   - Media: -0.0602
+3. Bloque (58, 124):
+   - Densidad: 27.34%
+   - Suma: 1.9993
+   - Min/Max: -2.6333/2.6553
+   - Media: 0.0078
+4. Bloque (124, 35):
+   - Densidad: 27.34%
+   - Suma: -14.0978
+   - Min/Max: -3.1297/2.1346
+   - Media: -0.0551
+5. Bloque (20, 99):
+   - Densidad: 26.56%
+   - Suma: 16.0764
+   - Min/Max: -2.1254/2.8208
+   - Media: 0.0628
+6. Bloque (59, 4):
+   - Densidad: 26.56%
+   - Suma: -2.0212
+   - Min/Max: -2.8436/2.4559
+   - Media: -0.0079
+7. Bloque (93, 33):
+   - Densidad: 26.56%
+   - Suma: -9.2187
+   - Min/Max: -1.6847/2.5442
+   - Media: -0.0360
+8. Bloque (25, 110):
+   - Densidad: 26.17%
+   - Suma: -10.9889
+   - Min/Max: -2.7238/2.6484
+   - Media: -0.0429
+9. Bloque (47, 109):
+   - Densidad: 26.17%
+   - Suma: 7.7753
+   - Min/Max: -2.8765/3.0439
+   - Media: 0.0304
+10. Bloque (92, 118):
+   - Densidad: 26.17%
+   - Suma: -7.6134
+   - Min/Max: -2.7447/1.7836
+   - Media: -0.0297

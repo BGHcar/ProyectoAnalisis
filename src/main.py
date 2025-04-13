@@ -1,7 +1,11 @@
+from pathlib import Path
+import time
 from src.controllers.manager import Manager
 
 from src.controllers.strategies.force import BruteForce
 from src.controllers.strategies.q_nodes import QNodes
+# Asumiendo que Phi es una estrategia adicional que necesitas importar
+from src.controllers.strategies.phi import Phi
 
 class ResultadosAnalisis:
     def __init__(self):
@@ -9,23 +13,25 @@ class ResultadosAnalisis:
         self.results_dir.mkdir(exist_ok=True)
         
         timestamp = time.strftime('%Y%m%d_%H%M%S')
-        self.results_file = self.results_dir / f'resultados_phy20A.txt'
+        self.results_file = self.results_dir / f'Qnodes20A.txt'
         
         # Inicializar archivo
         with open(self.results_file, 'w', encoding='utf-8') as f:
             f.write("RESULTADOS DEL ANÁLISIS\n")
             f.write("=" * 50 + "\n\n")
-
-def iniciar():
-    """Punto de entrada principal"""
-                   # ABCDEFGHIJKLMNOPQRST #
-    estado_inicio = "10000000000000000000"
-    condiciones =   "11111111111111111111"
-    alcance =       "10111111111111111111"
-    mecanismo =     "10111111111111111111"
-
-    config_sistema = Manager(estado_inicial=estado_inicio)
-
+    
+    def save_to_file(self, patron_t1: str, patron_t: str, alcance: str, resultado_str: str):
+        """Guarda los resultados de un análisis específico"""
+        try:
+            with open(self.results_file, 'a', encoding='utf-8') as f:
+                f.write(f"\nPATRÓN t+1: {patron_t1}\n")
+                f.write(f"PATRÓN t: {patron_t}\n")
+                f.write(f"ALCANCE: {alcance}\n")
+                f.write(f"RESULTADO: {resultado_str}\n")
+                f.write("-" * 30 + "\n")
+        except Exception as e:
+            print(f"Error al guardar resultados: {e}")
+    
     def save_summary(self, total: int):
         """Guarda el resumen final"""
         try:

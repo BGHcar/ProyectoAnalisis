@@ -149,6 +149,7 @@ class QNodes(SIA):
         """
         Implementa el algoritmo Q para encontrar la partición óptima de un sistema que minimiza la pérdida de información,
         con paralelización para optimizar tiempos de ejecución.
+        Se detiene automáticamente cuando encuentra una partición con pérdida cero.
         """
         omegas_origen = np.array([vertices[0]])
         deltas_origen = np.array(vertices[1:])
@@ -190,14 +191,6 @@ class QNodes(SIA):
                 omegas_ciclo.append(deltas_ciclo[indice_mip])
                 deltas_ciclo.pop(indice_mip)
 
-            self.memoria_particiones[
-                tuple(
-                    deltas_ciclo[LAST_IDX]
-                    if isinstance(deltas_ciclo[LAST_IDX], list)
-                    else deltas_ciclo
-                )
-            ] = emd_particion_candidata, dist_particion_candidata
-
             par_candidato = (
                 [omegas_ciclo[LAST_IDX]]
                 if isinstance(omegas_ciclo[LAST_IDX], tuple)
@@ -207,6 +200,24 @@ class QNodes(SIA):
                 if isinstance(deltas_ciclo[LAST_IDX], list)
                 else deltas_ciclo
             )
+            
+            # Guardar la partición candidata en la memoria
+            self.memoria_particiones[
+                tuple(
+                    deltas_ciclo[LAST_IDX]
+                    if isinstance(deltas_ciclo[LAST_IDX], list)
+                    else deltas_ciclo
+                )
+            ] = emd_particion_candidata, dist_particion_candidata
+            
+            # Verificar si la partición candidata tiene pérdida cero
+            if abs(emd_particion_candidata) < 1e-10:  # Consideramos valores muy cercanos a cero como cero
+                self.logger.info("¡Encontrada partición con pérdida cero! Deteniendo el algoritmo.")
+                return tuple(
+                    deltas_ciclo[LAST_IDX]
+                    if isinstance(deltas_ciclo[LAST_IDX], list)
+                    else deltas_ciclo
+                )
 
             omegas_ciclo.pop()
             omegas_ciclo.append(par_candidato)
