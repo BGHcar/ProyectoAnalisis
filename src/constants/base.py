@@ -1,19 +1,18 @@
 import numpy as np
 
-
 INFTY_POS: float = float("inf")
 INFTY_NEG: float = float("-inf")
 
 INT_ZERO: int = int(0)
 INT_ONE: int = int(1)
 
-FLOAT_ZERO: float = float(INT_ONE)
-FLOAT_ONE: float = float(INT_ZERO)
+FLOAT_ONE: float = float(INT_ONE)
+FLOAT_ZERO: float = float(INT_ZERO)
 
 BASE_TWO: int = INT_ONE + INT_ONE
 
 ABC_LEN: int = 26
-LAST_IDX: int = -INT_ONE
+LAST_IDX = -INT_ONE
 ROWS_IDX = ACTUAL = INT_ZERO
 COLS_IDX = EFECTO = INT_ONE
 
@@ -38,16 +37,14 @@ NEQ_SYM: str = "≠"
 BITS: tuple[int, int] = (0, 1)
 ACTIVOS, INACTIVOS = True, False
 
+NET_LABEL: str = "NET"
 LOGS_PATH: str = ".logs"
 SAMPLES_PATH: str = "src/.samples/"
 PROFILING_PATH: str = "review/profiling"
 RESOLVER_PATH: str = "review/resolver"
+
 CSV_EXTENSION: str = "csv"
 HTML_EXTENSION: str = "html"
+EXCEL_EXTENSION: str = "xlsx"
 
-# Sistema
-
-DUMMY_EMD: int = -1
-DUMMY_ARR: list[int] = [-1]
-ERROR_PARTITION: str = "No hay suficientes elementos para particionar.\n"
-DUMMY_PARTITION: str = "NO-PARTITION\n"
+TYPE_TAG = "type"

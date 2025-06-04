@@ -1,16 +1,16 @@
-from src.middlewares.profile import profiler_manager
 from src.models.base.application import aplicacion
+
 from src.main import iniciar
-from src.controllers.manager import Manager
+# from src.prueba import iniciar
 
 
 def main():
     """Inicializar el aplicativo."""
-    profiler_manager.enabled = True
 
+    aplicacion.profiler_habilitado = True
     aplicacion.pagina_sample_network = "A"
 
-    print(f"{aplicacion.pagina_sample_network=}")  
+    iniciar()
 
     sistema_candidato = "ABCDEFGHIJ"  # Puedes cambiar el sistema candidato aquí  ABCDEFGHIJKLMNOPQRST
     iniciar(sistema_candidato)
@@ -18,3 +18,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

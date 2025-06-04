@@ -70,11 +70,11 @@ class NCube:
                     [[0.1 0.3]
                     [0.5 0.7]]
         """
-        n_dims = self.dims.size
-        seleccion = [slice(None)] * n_dims
+        numero_dims = self.dims.size
+        seleccion = [slice(None)] * numero_dims
 
         for condicion in indices_condicionados:
-            level_arr = n_dims - (condicion + 1)
+            level_arr = numero_dims - (condicion + 1)
             seleccion[level_arr] = estado_inicial[condicion]
 
         nuevas_dims = np.array(
@@ -83,8 +83,8 @@ class NCube:
         )
         return NCube(
             data=self.data[tuple(seleccion)],
-            dims=nuevas_dims,
             indice=self.indice,
+            dims=nuevas_dims,
         )
 
     def marginalizar(self, ejes: NDArray[np.int8]) -> "NCube":
@@ -127,9 +127,9 @@ class NCube:
         marginable_axis = np.intersect1d(ejes, self.dims)
         if not marginable_axis.size:
             return self
-        n_dims = len(self.dims) - 1
-        local_axes = tuple(
-            n_dims - dim_idx
+        numero_dims = self.dims.size - 1
+        ejes_locales = tuple(
+            numero_dims - dim_idx
             for dim_idx, axis in enumerate(self.dims)
             if axis in marginable_axis
         )
@@ -138,7 +138,7 @@ class NCube:
             dtype=np.int8,
         )
         return NCube(
-            data=np.mean(self.data, axis=local_axes, keepdims=False),
+            data=np.mean(self.data, axis=ejes_locales, keepdims=False),
             dims=new_dims,
             indice=self.indice,
         )
