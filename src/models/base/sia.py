@@ -4,11 +4,19 @@ import time
 import numpy as np
 import numpy.typing as NDArray
 
+from src.constants.models import SIA_PREPARATION_TAG
 from src.middlewares.slogger import SafeLogger
 from src.controllers.manager import Manager
 from src.models.core.system import System
 
-from src.constants.base import COLON_DELIM, FLOAT_ZERO, STR_ZERO
+from src.constants.base import (
+    COLON_DELIM,
+    FLOAT_ZERO,
+    STR_ZERO,
+)
+from src.constants.error import (
+    ERROR_INCOMPATIBLE_SIZES,
+)
 
 
 class SIA(ABC):
@@ -24,9 +32,9 @@ class SIA(ABC):
         - `sia_dists_marginales` (np.ndarray): Igualmente, una copia con fines de reutilización durante cálculos con la EMD.
     """
 
-    def __init__(self, config: Manager) -> None:
-        self.sia_loader = config
-        self.sia_logger = SafeLogger("sia_preparation")
+    def __init__(self, gestor: Manager) -> None:
+        self.sia_gestor = gestor
+        self.sia_logger = SafeLogger(SIA_PREPARATION_TAG)
 
         self.sia_subsistema: System
         self.sia_dists_marginales: NDArray[np.float32]
@@ -39,8 +47,14 @@ class SIA(ABC):
         """
 
     def sia_cargar_tpm(self) -> np.ndarray:
-        """Carga TPM desde archivo"""
-        return np.genfromtxt(self.sia_loader.tpm_filename, delimiter=COLON_DELIM)
+        """
+        Carga TPM desde el archivo indicado por el gestor.
+        """
+        dataset = np.genfromtxt(
+            self.sia_gestor.tpm_filename,
+            delimiter=COLON_DELIM,
+        )
+        return dataset
 
     def sia_preparar_subsistema(
         self,
@@ -59,7 +73,7 @@ class SIA(ABC):
             - `Exception:` Es crucial que todos tengan el mismo tamaño del estado inicial para correctamente identificar los índices y valor de cada variable rápidamente.
         """
         if self.chequear_parametros(condicion, alcance, mecanismo):
-            raise Exception("Different cand and initial state size")
+            raise Exception(ERROR_INCOMPATIBLE_SIZES)
 
         dims_condicionadas = np.array(
             [ind for ind, bit in enumerate(condicion) if bit == STR_ZERO], dtype=np.int8
@@ -72,36 +86,54 @@ class SIA(ABC):
         )
 
         # Preparar directorio de salida
-        self.sia_loader.output_dir.mkdir(parents=True, exist_ok=True)
+        self.sia_gestor.output_dir.mkdir(parents=True, exist_ok=True)
 
         # Cargar y preparar datos
         tpm = self.sia_cargar_tpm()
         estado_inicial = np.array(
-            [canal for canal in self.sia_loader.estado_inicial], dtype=np.int8
+            [canal for canal in self.sia_gestor.estado_inicial], dtype=np.int8
         )
 
         # Formación de datos con logs opcionales de ejemplificación
         completo = System(tpm, estado_inicial)
+        # self.sia_logger.critic("Original creado.")
+        # self.sia_logger.info(completo)
         # self.sia_logger.critic("Original:")
         # self.sia_logger.info(completo)
 
         candidato = completo.condicionar(dims_condicionadas)
-        # self.sia_logger.warn("Candidato:")
+        # self.sia_logger.critic("Candidato creado.")
         # self.sia_logger.info(f"{dims_condicionadas}")
         # self.sia_logger.debug(candidato)
 
         subsistema = candidato.substraer(dims_alcance, dims_mecanismo)
+<<<<<<< HEAD
         self.sia_logger.critic("Subsys:")
         self.sia_logger.debug(f"{dims_alcance, dims_mecanismo=}")
         self.sia_logger.debug(subsistema)
+=======
+        # self.sia_logger.critic("Subsistema creado.")
+        # self.sia_logger.debug(f"{dims_alcance, dims_mecanismo=}")
+        # self.sia_logger.debug(subsistema)
+>>>>>>> upstream/main
 
         self.sia_subsistema = subsistema
         self.sia_dists_marginales = subsistema.distribucion_marginal()
         self.sia_tiempo_inicio = time.time()
 
     def chequear_parametros(self, candidato: str, futuro: str, presente: str):
+        """Valida que los datos enviados por el usuario sean correctos, donde no hay problema si tienen la misma longitud puesto se están asignando los valores correspondientes a cada variable.
+
+        Args:
+            `candidato` (str): Cadena de texto que representa la presencia o ausencia de un conjunto de variables que serán enviadas para condicionar el sistema original dejándolo como un Sistema candidato, si su bit asociado equivale a 0 se condiciona la variable, si equivale a 1 esta variable se mantendrá en el sistema durante toda la ejecución (hasta que un subsistema la marginalice).
+            `futuro` (str): Cadena de texto que representa la presencia o ausencia de un conjunto de variables que serán enviadas para substraer en el alcance del Sistema candidato dejándo un Subsistema, si su bit asociado equivale a 0 la variable será marginalizada, si equivale a 1 la variable se mantendrá en el Sistema candidato durante toda la ejecución (hasta que una partición la marginalice).
+            `presente` (str): Cadena de texto que representa la presencia o ausencia de un conjunto de variables que serán enviadas para substraer en el mecanismo del Sistema candidato dejándolo como un Subsistema, si su bit asociado equivale a 0 la variable será marginalizada, si equivale a 1 la variable se mantendrá en el Sistema candidato durante toda la ejecución (hasta que una partición la marginalice).
+
+        Returns:
+            bool: True si las dimensiones son diferentes, de otra forma los parámetros enviados son válidos (y depende si existe la red asociada).
+        """
         return not (
-            len(self.sia_loader.estado_inicial)
+            len(self.sia_gestor.estado_inicial)
             == len(candidato)
             == len(futuro)
             == len(presente)

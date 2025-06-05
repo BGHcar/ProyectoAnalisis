@@ -14,6 +14,7 @@ class Application:
         self.notacion: str = Notation.LIL_ENDIAN.value
         self.modo_estados = ACTIVOS
         self.distancia_metrica = MetricDistance.EMD_EFECTO.value
+        self.profiler_habilitado = True
 
     def set_notacion(self, tipo: Notation):
         self.notacion = tipo

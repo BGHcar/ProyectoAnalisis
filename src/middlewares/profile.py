@@ -6,6 +6,8 @@ from functools import wraps
 from typing import Optional, Callable, Any
 from pyinstrument import Profiler
 from pyinstrument.renderers import HTMLRenderer
+from src.models.base.application import aplicacion
+
 
 from src.constants.base import (
     PROFILING_PATH,
@@ -20,7 +22,7 @@ class ProfilingManager:
 
     def __init__(
         self,
-        habilitado: bool = True,
+        habilitado: bool = aplicacion.profiler_habilitado,
         dir_salida: Path = Path(PROFILING_PATH),
         intervalo: float = 0.001,
     ):
