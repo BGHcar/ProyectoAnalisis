@@ -13,7 +13,7 @@ class ResultadosAnalisis:
         self.results_dir.mkdir(exist_ok=True)
         
         timestamp = time.strftime('%Y%m%d_%H%M%S')
-        self.results_file = self.results_dir / f'Qnodes20A.txt'
+        self.results_file = self.results_dir / f'Qnodes20Aultimo.txt'
         
         # Inicializar archivo
         with open(self.results_file, 'w', encoding='utf-8') as f:
@@ -94,7 +94,7 @@ class SistemaAnalisis:
     def ejecutar_analisis(self):
         """Ejecuta el análisis completo"""
         try:
-            # Primero ejecuta los patrones existentes
+             # Primero ejecuta los patrones existentes
             for patron_t1 in self.patrones:
                 alcance = self.generar_alcance(patron_t1)
                 
@@ -120,7 +120,7 @@ class SistemaAnalisis:
                     
                     print(f"t+1: {patron_t1} | t: {patron_t}")
                     print(f"Alcance: {alcance}")
-                    print(f"Resultado: {resultado}\n")
+                    print(f"Resultado: {resultado}\n") 
 
             # Añadir el patrón especial después de los bucles
             self.total += 1
@@ -128,19 +128,15 @@ class SistemaAnalisis:
             
             # Generar el patrón dinámicamente
             # Para t: elimina el primer elemento
-            patron_t = "0" + "1" * (n-1) 
-            #BCDEFGJ_{t+1}|BCDEFGHIJ_{t}
+            patron_t = "10111111111111111110"       #A CDEFGHIJKLMNOPQRST _{t}    
+           
             
-            # Construcción del patrón por partes:
-            primer_parte = "0" + "1" * 6  # 0111111 (primeros 7 valores)
-            segunda_parte = "00"          # Los dos ceros después del sexto valor
-            tercera_parte = "1" * (n-9)   # Unos hasta completar la longitud total
-            
-            patron_t1 = primer_parte + segunda_parte + tercera_parte
+            patron_t1 = "10111111111111111110"            #A CDEFGHIJKLMNOPQRST {t+1}
+                                      #101111111111111111110
             
             mecanismo = "1" * n
             
-            analizador_fb = Phi(self.config_sistema)
+            analizador_fb = QNodes(self.config_sistema)
             resultado = analizador_fb.aplicar_estrategia(
                 self.condiciones,
                 patron_t1,

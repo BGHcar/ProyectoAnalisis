@@ -12,7 +12,7 @@ def main():
 
     print(f"{aplicacion.pagina_sample_network=}")  
 
-    sistema_candidato = "ABCDEFGHIJ"  # Puedes cambiar el sistema candidato aquí  ABCDEFGHIJKLMNOPQRST
+    sistema_candidato = "ABCDEFGHIJKLMNOPQRST"  # Puedes cambiar el sistema candidato aquí  ABCDEFGHIJKLMNOPQRST
     iniciar(sistema_candidato)
     
 
