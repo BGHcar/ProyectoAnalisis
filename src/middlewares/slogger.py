@@ -5,46 +5,66 @@ from datetime import datetime
 from functools import wraps
 from typing import Any, Callable
 
-from colorama import init, Fore, Style
+# Importar colorama de forma segura
+try:
+    from colorama import init, Fore, Style
+    _COLORAMA_AVAILABLE = True
+except ImportError:
+    _COLORAMA_AVAILABLE = False
+    class DummyColor:
+        def __getattr__(self, name):
+            return ''
+    Fore = DummyColor()
+    Style = DummyColor()
 
 from src.constants.base import LOGS_PATH
 
+# ¡CLAVE! - Conjunto global para evitar reconfiguración repetitiva
+_configured_loggers = set()
 
 class ColorFormatter(logging.Formatter):
     """Formatter personalizado para consola con colores usando colorama."""
 
     COLORS = {
-        logging.DEBUG: Fore.LIGHTBLACK_EX,  # gris
-        logging.INFO: Fore.BLUE,  # azul
-        logging.WARNING: Fore.YELLOW,  # amarillo
-        logging.ERROR: Fore.RED,  # rojo
-        logging.CRITICAL: Fore.MAGENTA,  # magenta
-        logging.FATAL: Fore.RED + Style.BRIGHT,  # rojo brillante
+        logging.DEBUG: Fore.LIGHTBLACK_EX,
+        logging.INFO: Fore.BLUE,
+        logging.WARNING: Fore.YELLOW,
+        logging.ERROR: Fore.RED,
+        logging.CRITICAL: Fore.MAGENTA,
+        logging.FATAL: Fore.RED + Style.BRIGHT,
     }
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        init(autoreset=True)  # Inicializa colorama
+        if _COLORAMA_AVAILABLE:
+            init(autoreset=True)
 
     def format(self, record: logging.LogRecord) -> str:
-        color = self.COLORS.get(record.levelno, "")
-        # Guarda el nombre del nivel original
-        original_levelname = record.levelname
-        # Aplica el color al nombre del nivel
-        record.levelname = f"{color}{original_levelname}{Style.RESET_ALL}"
+        if _COLORAMA_AVAILABLE:
+            color = self.COLORS.get(record.levelno, "")
+            original_levelname = record.levelname
+            record.levelname = f"{color}{original_levelname}{Style.RESET_ALL}"
 
-        # Formato del mensaje
         formatted = super().format(record)
-        # Restaura el nombre del nivel original
-        record.levelname = original_levelname
+        
+        if _COLORAMA_AVAILABLE:
+            record.levelname = original_levelname
         return formatted
 
-
 class SafeLogger:
-    """Logger seguro/robusto para manejar cualquier tipo de entrada y caracteres especiales."""
+    """Logger optimizado que evita reconfiguración repetitiva."""
 
     def __init__(self, name: str):
-        self._logger = self.__setup_logger(name)
+        # Obtener logger singleton por nombre
+        self._logger = logging.getLogger(name)
+        
+        # ¡OPTIMIZACIÓN CLAVE! - Solo configurar si no se ha hecho antes
+        if name not in _configured_loggers:
+            self.__setup_handlers_once(self._logger, name)
+            _configured_loggers.add(name)
+            print(f"Logger '{name}' configurado por primera vez")
+        else:
+            print(f"Logger '{name}' reutilizado (sin reconfiguración)")
 
     def _safe_str(self, obj: Any) -> str:
         """Convierte cualquier objeto a string de forma segura."""
@@ -63,9 +83,19 @@ class SafeLogger:
             return f"{args_str} {kwargs_str}"
         return args_str
 
-    def __setup_logger(self, name: str) -> logging.Logger:
-        """Configura el logger con manejo de encodings y formateo personalizado."""
-        # Crear estructura de directorios para logs detallados
+    def __setup_handlers_once(self, logger_instance: logging.Logger, name: str) -> None:
+        """Configura handlers UNA SOLA VEZ por nombre de logger."""
+        
+        # Limpiar handlers existentes y cerrar recursos
+        if logger_instance.handlers:
+            for handler in logger_instance.handlers:
+                handler.close()  # ¡IMPORTANTE! - Liberar recursos
+            logger_instance.handlers.clear()
+
+        logger_instance.setLevel(logging.ERROR)  # Reducir nivel para mejor rendimiento
+        logger_instance.propagate = False
+
+        # Crear estructura de directorios
         base_log_dir = Path(LOGS_PATH)
         base_log_dir.mkdir(exist_ok=True)
 
@@ -76,55 +106,43 @@ class SafeLogger:
         hour_dir = date_dir / f"{current_time.strftime('%H')}hrs"
         hour_dir.mkdir(exist_ok=True)
 
-        # Archivo para logs detallados
+        # Archivos de log
         detailed_log_file = hour_dir / f"{name}.log"
-        # Archivo para el último log
         last_log_file = base_log_dir / f"last_{name}.log"
 
-        logger = logging.getLogger(name)
-        logger.setLevel(logging.ERROR)
-        # Importante: evita la propagación a loggers padre
-        logger.propagate = False
-        logger.handlers.clear()
-
-        # Formatter para archivos (sin colores)
+        # Formatters
         plain_formatter = logging.Formatter(
-            "%(asctime)s [%(name)s] %(levelname)s %(processName)s: %(message)s",
-            datefmt="%Y-%m-%d %H:%M:%S",  # Removido %f para evitar el error
+            "%(asctime)s [%(name)s] %(levelname)s: %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S",
         )
 
-        # Formatter para consola (con colores)
         colored_formatter = ColorFormatter(
-            "%(levelname)s (%(asctime)s): %(message)s",
-            datefmt="%H:%M:%S",  # Formato simplificado para la consola
+            "%(levelname)s: %(message)s",
+            datefmt="%H:%M:%S",
         )
 
-        # Handler para archivo detallado
+        # Handlers optimizados
+        # Usar 'a' en lugar de 'w' para evitar sobrescritura constante
         detailed_file_handler = logging.FileHandler(
-            detailed_log_file, mode="w", encoding="utf-8"
+            detailed_log_file, mode="a", encoding="utf-8"
         )
         detailed_file_handler.setLevel(logging.DEBUG)
         detailed_file_handler.setFormatter(plain_formatter)
 
-        # Handler para el archivo "last"
         last_file_handler = logging.FileHandler(
             last_log_file, mode="w", encoding="utf-8"
         )
         last_file_handler.setLevel(logging.DEBUG)
         last_file_handler.setFormatter(plain_formatter)
 
-        # Handler para consola
+        # Console handler con nivel más alto para reducir output
         console_handler = logging.StreamHandler(sys.stdout)
-        console_handler.setLevel(
-            logging.DEBUG
-        )  # Cambiado a DEBUG para ver todos los mensajes
+        console_handler.setLevel(logging.WARNING)  # Solo warnings y errores
         console_handler.setFormatter(colored_formatter)
 
-        logger.addHandler(detailed_file_handler)
-        logger.addHandler(last_file_handler)
-        logger.addHandler(console_handler)
-
-        return logger
+        logger_instance.addHandler(detailed_file_handler)
+        logger_instance.addHandler(last_file_handler)
+        logger_instance.addHandler(console_handler)
 
     def set_log(self, level: int, *args, **kwargs) -> None:
         """Método genérico de logging."""
@@ -132,34 +150,26 @@ class SafeLogger:
         self._logger.log(level, message)
 
     def debug(self, *args, **kwargs) -> None:
-        """Log a nivel DEBUG."""
         self.set_log(logging.DEBUG, *args, **kwargs)
 
     def info(self, *args, **kwargs) -> None:
-        """Log a nivel INFO."""
         self.set_log(logging.INFO, *args, **kwargs)
 
     def warn(self, *args, **kwargs) -> None:
-        """Log a nivel WARNING."""
         self.set_log(logging.WARNING, *args, **kwargs)
 
     def error(self, *args, **kwargs) -> None:
-        """Log a nivel ERROR."""
         self.set_log(logging.ERROR, *args, **kwargs)
 
     def critic(self, *args, **kwargs) -> None:
-        """Log a nivel CRITICAL."""
         self.set_log(logging.CRITICAL, *args, **kwargs)
 
     def fatal(self, *args, **kwargs) -> None:
-        """Log a nivel FATAL."""
         self.set_log(logging.FATAL, *args, **kwargs)
-
 
 def get_logger(name: str) -> SafeLogger:
     """Función de conveniencia para obtener una instancia del logger."""
     return SafeLogger(name)
-
 
 # Decorador opcional para logging automático
 def log_execution(logger: SafeLogger):
@@ -174,7 +184,5 @@ def log_execution(logger: SafeLogger):
             except Exception as e:
                 logger.error(f"Error en {func.__name__}: {e}")
                 raise
-
         return wrapper
-
     return decorator

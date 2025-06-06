@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 import time
+import gc
 
 import numpy as np
 import numpy.typing as NDArray
@@ -46,6 +47,31 @@ class SIA(ABC):
         Método principal sobre el que las clases herederas implementarán su algoritmo de resolución del problema con una metodología determinada.
         """
 
+    def sia_limpiar_memoria(self):
+        """
+        Limpia todos los datos acumulados en memoria para evitar acumulación entre análisis.
+        Debe ser llamado al final de cada análisis para prevenir ralentización progresiva.
+        """
+        try:
+            # Limpiar subsistema
+            if hasattr(self, 'sia_subsistema'):
+                del self.sia_subsistema
+            
+            # Limpiar distribuciones marginales
+            if hasattr(self, 'sia_dists_marginales'):
+                del self.sia_dists_marginales
+            
+            # Resetear tiempo
+            self.sia_tiempo_inicio = FLOAT_ZERO
+            
+            # Forzar recolección de basura
+            gc.collect()
+            
+            self.sia_logger.debug("Memoria SIA limpiada exitosamente")
+            
+        except Exception as e:
+            self.sia_logger.warning(f"Error al limpiar memoria SIA: {str(e)}")
+
     def sia_cargar_tpm(self) -> np.ndarray:
         """
         Carga TPM desde el archivo indicado por el gestor.
@@ -72,6 +98,10 @@ class SIA(ABC):
         Raises:
             - `Exception:` Es crucial que todos tengan el mismo tamaño del estado inicial para correctamente identificar los índices y valor de cada variable rápidamente.
         """
+        # Limpiar memoria antes de preparar nuevo subsistema
+        if hasattr(self, 'sia_subsistema'):
+            self.sia_limpiar_memoria()
+        
         if self.chequear_parametros(condicion, alcance, mecanismo):
             raise Exception(ERROR_INCOMPATIBLE_SIZES)
 
@@ -132,3 +162,12 @@ class SIA(ABC):
             == len(futuro)
             == len(presente)
         )
+
+    def __del__(self):
+        """
+        Destructor que asegura la limpieza de memoria cuando la instancia es eliminada.
+        """
+        try:
+            self.sia_limpiar_memoria()
+        except:
+            pass  # Silenciar errores en el destructor
