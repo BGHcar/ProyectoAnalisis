@@ -210,11 +210,8 @@ class QNodes(SIA):
 
                     emd_particion_candidata = emd_delta
                     dist_particion_candidata = dist_marginal_delta
-<<<<<<< HEAD:src/controllers/strategies/q_nodes.py
-=======
                     ...
                 # self.logger.critic(f"       [k]: {indice_mip}")
->>>>>>> upstream/main:src/strategies/q_nodes.py
 
                 omegas_ciclo.append(deltas_ciclo[indice_mip])
                 deltas_ciclo.pop(indice_mip)
@@ -340,10 +337,7 @@ class QNodes(SIA):
         )
         vector_union_marginal = particion_union.distribucion_marginal()
         emd_union = emd_efecto(vector_union_marginal, self.sia_dists_marginales)
-<<<<<<< HEAD:src/controllers/strategies/q_nodes.py
-=======
  
->>>>>>> upstream/main:src/strategies/q_nodes.py
         return emd_union, emd_delta, vector_delta_marginal
 
     def nodes_complement(self, nodes: list[tuple[int, int]]):
