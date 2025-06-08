@@ -279,6 +279,8 @@ class Geometric(SIA):
         
         particion_resultado = self.sia_subsistema.bipartir(dims_alcance, dims_mecanismo)
         distribucion_marginal = particion_resultado.distribucion_marginal()
+        # En lugar de: T[i,j] = calcular_costo_transicion(estado_i, estado_j)
+        # Se evalúa directamente:
         perdida_emd = emd_efecto(distribucion_marginal, self.sia_dists_marginales)
         
         return perdida_emd, distribucion_marginal
@@ -449,11 +451,9 @@ class Geometric(SIA):
                 print("Memoria de particiones liberada")
             self.sia_limpiar_memoria()
             print("Memoria SIA limpiada")
-            
-    
-    
-    
-    
+                
     def nodes_complement(self, nodes: list[tuple[int, int]]):
         """Obtiene el complemento de nodos (compatibilidad con QNodes)."""
         return list(set(self.vertices) - set(nodes))
+    
+    

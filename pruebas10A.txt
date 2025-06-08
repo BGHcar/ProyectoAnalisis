@@ -1,0 +1,1384 @@
+﻿🚀 SISTEMA DE ANÁLISIS GEOMÉTRICO DE BIPARTICIONES
+============================================================
+📋 Sistema por defecto: ABCDEFGHIJ
+🔬 Variables: 10
+⏱️ Iniciando análisis...
+🔬 Sistema original: ABCDEFGHIJ
+📊 Estado inicial: 1000000000
+🎯 Variables: 10
+Logger 'sia_preparation' configurado por primera vez
+Logger 'geometric_strategy' configurado por primera vez
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0.4727 0. ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛  A,B,C,D,E,F,G,H,J  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4727
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0121
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 1
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0. 0.5000 1.0000 1.0000 1.0000 0.5000 0. 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0. 0.5000 1.0000 1.0000 1.0000 0.5049 0. 0.5000 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛ A,B,C,D,E,F,H,I,J ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0131
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 2
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0.5000 1.0000 1.0000 0.5000 0.5000 0.5000 0.5000 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0.5000 1.0000 1.0000 0.5000 0.5000 0.5049 0.5000 0. 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛ A,B,C,D,E,F,H,I,J ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0126
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 3
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5000 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 0.2500 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5117 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 0.2500 ]
+
+Mejor Bi-Partición:
+⎛ B ⎞⎛ A,C,D,E,F,G,H,I,J ⎞
+⎝ ∅ ⎠⎝  b,c,d,e,f,g,h,i  ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0121
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 4
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5312 0.4375 0.4375 0.5625 0.4688 0.4688 0.6562 0.4375 0.6250 0.5312 ]
+Distribucion marginal de la Partición:
+[ 0.5312 0.4375 0.4375 0.5625 0.4844 0.4688 0.6562 0.4375 0.6250 0.5312 ]
+
+Mejor Bi-Partición:
+⎛ E ⎞⎛ A,B,C,D,F,G,H,I,J ⎞
+⎝ ∅ ⎠⎝     a,c,e,g,i     ⎠
+
+Perdida mínima ( φ ) = 0.0156
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0116
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 5
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4688 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4727 0.4688 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛ A,B,C,D,E,F,G,H,J ⎞
+⎝ ∅ ⎠⎝     b,d,f,h,j     ⎠
+
+Perdida mínima ( φ ) = 0.0039
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0118
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 6
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0.5000 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5117 0.5000 0. ]
+
+Mejor Bi-Partición:
+⎛ H ⎞⎛ A,B,C,D,E,F,G,I,J ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0136
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 7
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0.4727 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛   A,B,C,D,E,F,G,H   ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4727
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0111
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 8
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0. 0.5000 1.0000 1.0000 1.0000 0.5000 0. 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0. 0.5000 1.0000 1.0000 1.0000 0.5049 0. 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛  A,B,C,D,E,F,H,I  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0131
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 9
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0.5000 1.0000 1.0000 0.5000 0.5000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0.5000 1.0000 1.0000 0.5000 0.5000 0.5049 0.5000 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛  A,B,C,D,E,F,H,I  ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0126
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 10
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5000 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5117 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ B ⎞⎛ A,C,D,E,F,G,H,I ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0116
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 11
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5312 0.4375 0.4375 0.5625 0.4688 0.4688 0.6562 0.4375 0.6250 ]
+Distribucion marginal de la Partición:
+[ 0.5312 0.4375 0.4375 0.5625 0.4844 0.4688 0.6562 0.4375 0.6250 ]
+
+Mejor Bi-Partición:
+⎛ E ⎞⎛ A,B,C,D,F,G,H,I ⎞
+⎝ ∅ ⎠⎝    a,c,e,g,i    ⎠
+
+Perdida mínima ( φ ) = 0.0156
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0125
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 12
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4727 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛ A,B,C,D,E,F,G,H ⎞
+⎝ ∅ ⎠⎝    b,d,f,h,j    ⎠
+
+Perdida mínima ( φ ) = 0.0039
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0231
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 13
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5117 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ H ⎞⎛  A,B,C,D,E,F,G,I  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0141
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 14
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0.4727 0. ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛   B,C,D,E,F,G,H,J   ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4727
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0126
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 15
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0.5000 1.0000 1.0000 1.0000 0.5000 0. 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0. 0.5000 1.0000 1.0000 1.0000 0.5049 0. 0.5000 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛  B,C,D,E,F,H,I,J  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0131
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 16
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 1.0000 1.0000 0.5000 0.5000 0.5000 0.5000 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0.5000 1.0000 1.0000 0.5000 0.5000 0.5049 0.5000 0. 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛  B,C,D,E,F,H,I,J  ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0130
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 17
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 0.2500 ]
+Distribucion marginal de la Partición:
+[ 0.5117 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 0.2500 ]
+
+Mejor Bi-Partición:
+⎛ B ⎞⎛ C,D,E,F,G,H,I,J ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0121
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 18
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.4375 0.4375 0.5625 0.4688 0.4688 0.6562 0.4375 0.6250 0.5312 ]
+Distribucion marginal de la Partición:
+[ 0.4375 0.4375 0.5625 0.4844 0.4688 0.6562 0.4375 0.6250 0.5312 ]
+
+Mejor Bi-Partición:
+⎛ E ⎞⎛ B,C,D,F,G,H,I,J ⎞
+⎝ ∅ ⎠⎝    a,c,e,g,i    ⎠
+
+Perdida mínima ( φ ) = 0.0156
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0136
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 19
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4688 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4727 0.4688 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛ B,C,D,E,F,G,H,J ⎞
+⎝ ∅ ⎠⎝    b,d,f,h,j    ⎠
+
+Perdida mínima ( φ ) = 0.0039
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0130
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 20
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5117 0.5000 0. ]
+
+Mejor Bi-Partición:
+⎛ H ⎞⎛  B,C,D,E,F,G,I,J  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0141
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 21
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0.4727 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛    B,C,D,E,F,G,H    ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4727
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0112
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 22
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0.5000 1.0000 1.0000 1.0000 0.5000 0. 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0. 0.5000 1.0000 1.0000 1.0000 0.5049 0. 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛   B,C,D,E,F,H,I   ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0110
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 23
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 1.0000 1.0000 0.5000 0.5000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0.5000 1.0000 1.0000 0.5000 0.5000 0.5049 0.5000 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛   B,C,D,E,F,H,I   ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0119
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 24
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5117 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ B ⎞⎛  C,D,E,F,G,H,I  ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0126
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 25
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.4375 0.4375 0.5625 0.4688 0.4688 0.6562 0.4375 0.6250 ]
+Distribucion marginal de la Partición:
+[ 0.4375 0.4375 0.5625 0.4844 0.4688 0.6562 0.4375 0.6250 ]
+
+Mejor Bi-Partición:
+⎛ E ⎞⎛ B,C,D,F,G,H,I ⎞
+⎝ ∅ ⎠⎝   a,c,e,g,i   ⎠
+
+Perdida mínima ( φ ) = 0.0156
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0116
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 26
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4727 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛ B,C,D,E,F,G,H ⎞
+⎝ ∅ ⎠⎝   b,d,f,h,j   ⎠
+
+Perdida mínima ( φ ) = 0.0039
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0126
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 27
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5117 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ H ⎞⎛   B,C,D,E,F,G,I   ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0130
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 28
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 1.0000 0.4727 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛       A,C,E,G       ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4727
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0116
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 29
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5000 1.0000 0.5000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5000 1.0000 0.5049 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛      A,C,E,I      ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0087
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 30
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 0.5000 0.5049 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛      A,C,E,I      ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0105
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 31
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.7500 0.7500 0.2500 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.4805 0.7500 0.7500 0.2500 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ A ⎞⎛     C,E,G,I     ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0195
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0121
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 32
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5312 0.4375 0.4688 0.6562 0.6250 ]
+Distribucion marginal de la Partición:
+[ 0.5312 0.4375 0.4844 0.6562 0.6250 ]
+
+Mejor Bi-Partición:
+⎛ E ⎞⎛  A,C,G,I  ⎞
+⎝ ∅ ⎠⎝ a,c,e,g,i ⎠
+
+Perdida mínima ( φ ) = 0.0156
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0095
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 33
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5312 0.2812 0.5312 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5312 0.2812 0.5312 0.4727 ]
+
+Mejor Bi-Partición:
+⎛ I ⎞⎛  A,C,E,G  ⎞
+⎝ ∅ ⎠⎝ b,d,f,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0039
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0085
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 34
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 1.0000 1.0000 1.0000 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.4805 1.0000 1.0000 1.0000 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ A ⎞⎛      C,E,G,I      ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0195
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0085
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 35
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 0. 0.4941 ]
+
+Mejor Bi-Partición:
+⎛ J ⎞⎛       B,D,F,H       ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4941
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0090
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 36
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 0. 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 0. 0.4941 ]
+
+Mejor Bi-Partición:
+⎛ J ⎞⎛      B,D,F,H      ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0059
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0090
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 37
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 1.0000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0.5000 1.0000 0.4932 0.5000 0. ]
+
+Mejor Bi-Partición:
+⎛ F ⎞⎛      B,D,H,J      ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0068
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0090
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 38
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.7500 0.7500 0.5000 0.2500 ]
+Distribucion marginal de la Partición:
+[ 0.5117 0.7500 0.7500 0.5000 0.2500 ]
+
+Mejor Bi-Partición:
+⎛ B ⎞⎛     D,F,H,J     ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0090
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 39
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.4375 0.5625 0.4688 0.4375 0.5312 ]
+Distribucion marginal de la Partición:
+[ 0.4375 0.5625 0.4932 0.4375 0.5312 ]
+
+Mejor Bi-Partición:
+⎛ F ⎞⎛  B,D,H,J  ⎞
+⎝ ∅ ⎠⎝ a,c,e,g,i ⎠
+
+Perdida mínima ( φ ) = 0.0244
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0096
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 40
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5938 0.5312 0.4688 0.4688 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5938 0.5312 0.4932 0.4688 0.4688 ]
+
+Mejor Bi-Partición:
+⎛ F ⎞⎛  B,D,H,J  ⎞
+⎝ ∅ ⎠⎝ b,d,f,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0244
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0096
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 41
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 1.0000 1.0000 0.5117 0. ]
+
+Mejor Bi-Partición:
+⎛ H ⎞⎛      B,D,F,J      ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0096
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 42
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0.4805 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. 0. ]
+
+Mejor Bi-Partición:
+⎛ A ⎞⎛   B,C,D,E,F,G,H,J   ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4805
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0131
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 43
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0. 0.5000 1.0000 1.0000 1.0000 0.5000 0. 0.5000 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0. 0.5000 1.0000 1.0000 1.0000 0.5049 0. 0.5000 ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛  A,B,C,D,E,F,H,J  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0130
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 44
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0.5000 1.0000 1.0000 0.5000 0.5000 0.5000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0.5000 1.0000 1.0000 0.5000 0.5000 0.5049 0.5000 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛  A,B,C,D,E,F,H,J  ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.0049
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0136
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 45
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5000 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.2500 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5117 0.7500 0.7500 0.7500 0.7500 0.2500 0.5000 0.2500 ]
+
+Mejor Bi-Partición:
+⎛ B ⎞⎛ A,C,D,E,F,G,H,J ⎞
+⎝ ∅ ⎠⎝ b,c,d,e,f,g,h,i ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0129
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 46
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5312 0.4375 0.4375 0.5625 0.4688 0.4688 0.6562 0.4375 0.5312 ]
+Distribucion marginal de la Partición:
+[ 0.5312 0.4375 0.4375 0.5625 0.4844 0.4688 0.6562 0.4375 0.5312 ]
+
+Mejor Bi-Partición:
+⎛ E ⎞⎛ A,B,C,D,F,G,H,J ⎞
+⎝ ∅ ⎠⎝    a,c,e,g,i    ⎠
+
+Perdida mínima ( φ ) = 0.0156
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0131
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 47
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0.5938 0.5312 0.5312 0.2812 0.4688 0.5312 0.4688 0.4688 ]
+Distribucion marginal de la Partición:
+[ 0.5000 0.5938 0.5195 0.5312 0.2812 0.4688 0.5312 0.4688 0.4688 ]
+
+Mejor Bi-Partición:
+⎛ C ⎞⎛ A,B,D,E,F,G,H,J ⎞
+⎝ ∅ ⎠⎝    b,d,f,h,j    ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0126
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 48
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.5000 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5000 0. ]
+Distribucion marginal de la Partición:
+[ 0.5000 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0.5117 0. ]
+
+Mejor Bi-Partición:
+⎛ H ⎞⎛  A,B,C,D,E,F,G,J  ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,j ⎠
+
+Perdida mínima ( φ ) = 0.0117
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0115
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 49
+
+🎉 ¡ANÁLISIS COMPLETADO EXITOSAMENTE!
+📊 Se analizaron 10 variables
+🎯 Total de combinaciones: 98 análisis
