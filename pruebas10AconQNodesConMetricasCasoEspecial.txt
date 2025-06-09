@@ -1,0 +1,77 @@
+﻿🚀 SISTEMA DE ANÁLISIS GEOMÉTRICO DE BIPARTICIONES
+============================================================
+📋 Sistema por defecto: ABCDEFGHIJ
+🔬 Variables: 10
+⏱️ Iniciando análisis...
+🔬 Sistema original: ABCDEFGHIJ
+📊 Estado inicial: 1000000000
+🎯 Variables: 10
+Logger 'sia_preparation' configurado por primera vez
+Logger 'Q-Nodes_strategy' configurado por primera vez
+══════════════════════════════════════════════════
+
+Q-Nodes fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0.5195 1.0000 1.0000 1.0000 1.0000 0. ]
+
+Mejor Bi-Partición:
+⎛ C ⎞⎛     B,D,E,F,G,J     ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4805
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6744
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' configurado por primera vez
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 1.0000 1.0000 1.0000 1.0000 1.0000 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0.5195 1.0000 1.0000 1.0000 1.0000 0. ]
+
+Mejor Bi-Partición:
+⎛ C ⎞⎛     B,D,E,F,G,J     ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j ⎠
+
+Perdida mínima ( φ ) = 0.4805
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.0100
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 1
+Patrón PERSONALIZADO: QNodes_Φ=0.480469 | Geo_Φ=0.480469 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=41.72x
+
+============================================================
+MÉTRICAS GLOBALES (QNodes vs Geometric):
+Tasa de acierto exacto: 100.0%
+Error relativo máximo: 0.000000
+Distancia estructural máxima: 0.000000
+Speedup promedio: 41.72x
+Nivel de calidad: Excelente
+Resultado: VÁLIDO ✓
+============================================================
+
+🎉 ¡ANÁLISIS COMPLETADO EXITOSAMENTE!
+📊 Se analizaron 10 variables
+🎯 Total de combinaciones: 98 análisis

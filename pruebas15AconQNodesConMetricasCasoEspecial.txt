@@ -1,0 +1,77 @@
+﻿🚀 SISTEMA DE ANÁLISIS GEOMÉTRICO DE BIPARTICIONES
+============================================================
+📋 Sistema por defecto: ABCDEFGHIJOPQRS
+🔬 Variables: 15
+⏱️ Iniciando análisis...
+🔬 Sistema original: ABCDEFGHIJOPQRS
+📊 Estado inicial: 100000000000000
+🎯 Variables: 15
+Logger 'sia_preparation' configurado por primera vez
+Logger 'Q-Nodes_strategy' configurado por primera vez
+══════════════════════════════════════════════════
+
+Q-Nodes fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. ]
+
+Mejor Bi-Partición:
+⎛ ∅ ⎞⎛   B,C,D,E,F,G,J,K,L,M,N,O   ⎞
+⎝ k ⎠⎝ a,b,c,d,e,f,g,h,i,j,l,m,n,o ⎠
+
+Perdida mínima ( φ ) = 0.0000
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.7630
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' configurado por primera vez
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. ]
+Distribucion marginal de la Partición:
+[ 0. 0. 0. 0. 0. 0.0269 0. 0. 0. 0. 0. 0. ]
+
+Mejor Bi-Partición:
+⎛ G ⎞⎛     B,C,D,E,F,J,K,L,M,N,O     ⎞
+⎝ ∅ ⎠⎝ a,b,c,d,e,f,g,h,i,j,k,l,m,n,o ⎠
+
+Perdida mínima ( φ ) = 0.0269
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3327
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 1
+Patrón PERSONALIZADO: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.60x
+
+============================================================
+MÉTRICAS GLOBALES (QNodes vs Geometric):
+Tasa de acierto exacto: 0.0%
+Error relativo máximo: 1.000000
+Distancia estructural máxima: 1.000000
+Speedup promedio: 5.60x
+Nivel de calidad: Insuficiente
+Resultado: INVÁLIDO ✗
+============================================================
+
+🎉 ¡ANÁLISIS COMPLETADO EXITOSAMENTE!
+📊 Se analizaron 15 variables
+🎯 Total de combinaciones: 98 análisis

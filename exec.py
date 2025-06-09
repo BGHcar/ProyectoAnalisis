@@ -6,7 +6,7 @@ from src.main import iniciar
 def main():
     # Configuración de la aplicación
     aplicacion.profiler_habilitado = True
-    aplicacion.pagina_sample_network = "A"
+    aplicacion.pagina_sample_network = "B"
     
     print("🚀 SISTEMA DE ANÁLISIS GEOMÉTRICO DE BIPARTICIONES")
     print("=" * 60)
@@ -17,7 +17,7 @@ def main():
         print(f"📋 Sistema desde argumentos: {sistema_candidato}")
     else:
         # Tu sistema por defecto preferido
-        sistema_candidato = "ABCDEFGHIJKLMNOPQRST"  
+        sistema_candidato = "ABCDEFGHIJOPQRS"  
         print(f"📋 Sistema por defecto: {sistema_candidato}")
     
     print(f"🔬 Variables: {len(sistema_candidato)}")

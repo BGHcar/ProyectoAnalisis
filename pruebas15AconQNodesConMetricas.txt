@@ -29,7 +29,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 2.2823
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.5109
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -57,10 +57,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2617
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2857
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 1
-Patrón completo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=8.18x
+Patrón completo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=8.80x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -84,7 +84,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.7743
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9024
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -112,10 +112,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2776
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3307
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 2
-Patrón completo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.71x
+Patrón completo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.08x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -139,7 +139,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9283
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.2958
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -167,10 +167,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2747
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3455
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 3
-Patrón completo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.28x
+Patrón completo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.93x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -194,7 +194,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.4751
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9097
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -222,10 +222,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2752
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3458
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 4
-Patrón completo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=5.75x
+Patrón completo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.96x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -249,7 +249,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 5.8925
+Horas: 0.00 = Minutos: 0.1 = Segundos: 7.4536
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -277,10 +277,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2856
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3574
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 5
-Patrón completo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Speedup=19.78x
+Patrón completo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=19.81x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -304,7 +304,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 4.9622
+Horas: 0.00 = Minutos: 0.1 = Segundos: 6.4656
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -332,10 +332,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2843
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3619
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 6
-Patrón completo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Speedup=16.78x
+Patrón completo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=17.15x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -359,7 +359,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0340
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.3099
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -387,10 +387,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2736
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3407
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 7
-Patrón completo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.64x
+Patrón completo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=7.04x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -414,7 +414,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 2.4709
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.6026
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -442,10 +442,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2669
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3251
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 8
-Patrón desaparece_ultimo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=9.22x
+Patrón desaparece_ultimo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=8.18x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -469,7 +469,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9248
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0140
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -497,10 +497,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2708
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3299
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 9
-Patrón desaparece_ultimo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.33x
+Patrón desaparece_ultimo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.42x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -524,7 +524,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9572
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0717
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -552,10 +552,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2720
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3272
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 10
-Patrón desaparece_ultimo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.40x
+Patrón desaparece_ultimo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.68x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -579,7 +579,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.5737
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6658
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -607,10 +607,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2761
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3283
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 11
-Patrón desaparece_ultimo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.00x
+Patrón desaparece_ultimo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.49x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -634,7 +634,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 5.7990
+Horas: 0.00 = Minutos: 0.1 = Segundos: 6.1218
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -662,10 +662,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2815
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3403
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 12
-Patrón desaparece_ultimo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Speedup=19.59x
+Patrón desaparece_ultimo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=17.32x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -689,7 +689,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 4.9086
+Horas: 0.00 = Minutos: 0.1 = Segundos: 5.3393
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -717,10 +717,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3120
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3409
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 13
-Patrón desaparece_ultimo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Speedup=15.31x
+Patrón desaparece_ultimo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=15.20x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -744,7 +744,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.8811
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.1947
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -772,10 +772,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2715
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3439
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 14
-Patrón desaparece_ultimo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.16x
+Patrón desaparece_ultimo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.53x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -799,7 +799,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 2.4409
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.6414
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -827,10 +827,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2720
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3439
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 15
-Patrón desaparece_primer×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=8.93x
+Patrón desaparece_primer×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=7.89x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -854,7 +854,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9088
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0095
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -882,10 +882,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2761
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3353
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 16
-Patrón desaparece_primer×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.17x
+Patrón desaparece_primer×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.23x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -909,7 +909,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9880
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.1213
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -937,10 +937,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2847
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3307
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 17
-Patrón desaparece_primer×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.24x
+Patrón desaparece_primer×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.75x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -964,7 +964,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.5673
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6815
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -992,10 +992,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2745
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3442
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 18
-Patrón desaparece_primer×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.12x
+Patrón desaparece_primer×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.31x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1019,7 +1019,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 5.8070
+Horas: 0.00 = Minutos: 0.1 = Segundos: 6.3810
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1047,10 +1047,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2854
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3497
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 19
-Patrón desaparece_primer×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Speedup=19.62x
+Patrón desaparece_primer×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=17.29x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1074,7 +1074,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 5.0538
+Horas: 0.00 = Minutos: 0.1 = Segundos: 5.3100
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1102,10 +1102,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2896
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3446
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 20
-Patrón desaparece_primer×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Speedup=16.92x
+Patrón desaparece_primer×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=14.97x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1129,7 +1129,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9001
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0295
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1157,10 +1157,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2742
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3517
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 21
-Patrón desaparece_primer×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.28x
+Patrón desaparece_primer×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.08x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1184,7 +1184,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 2.1265
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.2698
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1212,10 +1212,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2646
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3222
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 22
-Patrón desaparece_primero_ultimo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=8.20x
+Patrón desaparece_primero_ultimo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=7.37x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1239,7 +1239,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6493
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.7728
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1267,10 +1267,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2655
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3071
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 23
-Patrón desaparece_primero_ultimo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.53x
+Patrón desaparece_primero_ultimo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.17x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1294,7 +1294,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.7063
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.8313
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1322,10 +1322,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2698
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3169
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 24
-Patrón desaparece_primero_ultimo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.63x
+Patrón desaparece_primero_ultimo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.24x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1349,7 +1349,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.3494
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.4456
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1377,10 +1377,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2692
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3118
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 25
-Patrón desaparece_primero_ultimo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=5.47x
+Patrón desaparece_primero_ultimo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.11x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1404,7 +1404,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 4.6912
+Horas: 0.00 = Minutos: 0.1 = Segundos: 5.1636
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1432,10 +1432,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2785
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3391
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 26
-Patrón desaparece_primero_ultimo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Speedup=16.10x
+Patrón desaparece_primero_ultimo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=14.56x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1459,7 +1459,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 4.0318
+Horas: 0.00 = Minutos: 0.1 = Segundos: 4.5428
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1487,10 +1487,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2850
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3401
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 27
-Patrón desaparece_primero_ultimo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Speedup=13.81x
+Patrón desaparece_primero_ultimo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=13.15x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1514,7 +1514,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6719
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.8011
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1542,10 +1542,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2826
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3441
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 28
-Patrón desaparece_primero_ultimo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.28x
+Patrón desaparece_primero_ultimo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.62x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1569,7 +1569,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.9395
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.9798
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1597,10 +1597,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0269
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2702
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3159
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 29
-Patrón solo_impares×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=inf | Speedup=4.10x
+Patrón solo_impares×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=3.68x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1624,7 +1624,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.7399
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.7828
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1652,10 +1652,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0269
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2668
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3069
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 30
-Patrón solo_impares×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=inf | Speedup=3.47x
+Patrón solo_impares×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=3.24x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1679,7 +1679,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.7644
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.8170
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1707,10 +1707,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0269
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2680
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3038
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 31
-Patrón solo_impares×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=inf | Speedup=3.49x
+Patrón solo_impares×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=3.42x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1734,7 +1734,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.6056
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.6483
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1762,10 +1762,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0269
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2695
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3085
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 32
-Patrón solo_impares×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=inf | Speedup=2.94x
+Patrón solo_impares×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=2.84x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1789,7 +1789,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0054
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.4457
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6162
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1817,10 +1817,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0044
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2686
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3371
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 33
-Patrón solo_impares×solo_impares: QNodes_Φ=0.005358 | Geo_Φ=0.004378 | Acierto=✗ | Error=0.182797 | Speedup=5.88x
+Patrón solo_impares×solo_impares: QNodes_Φ=0.005358 | Geo_Φ=0.004378 | Acierto=✗ | Error=0.182797 | Dist=0.182797 | Speedup=5.23x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1844,7 +1844,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.1507
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.2515
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1872,10 +1872,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2712
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3165
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 34
-Patrón solo_impares×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Speedup=4.79x
+Patrón solo_impares×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=4.54x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1899,7 +1899,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.7321
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.7963
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1927,10 +1927,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0269
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2636
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3439
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 35
-Patrón solo_impares×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=inf | Speedup=3.46x
+Patrón solo_impares×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026939 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=2.97x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -1954,7 +1954,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.7657
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.8332
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -1982,10 +1982,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2628
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3305
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 36
-Patrón solo_pares×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=3.56x
+Patrón solo_pares×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=3.16x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2009,7 +2009,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.5935
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.6451
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2037,10 +2037,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2627
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3008
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 37
-Patrón solo_pares×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=2.97x
+Patrón solo_pares×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=2.86x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2064,7 +2064,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.6124
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.6668
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2092,10 +2092,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2640
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3110
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 38
-Patrón solo_pares×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=3.03x
+Patrón solo_pares×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=2.85x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2119,7 +2119,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.4807
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.5116
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2147,10 +2147,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2610
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3089
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 39
-Patrón solo_pares×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=2.59x
+Patrón solo_pares×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=2.41x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2174,7 +2174,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.0472
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.1360
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2202,10 +2202,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2672
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3155
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 40
-Patrón solo_pares×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Speedup=4.52x
+Patrón solo_pares×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=4.18x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2229,7 +2229,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0088
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.8383
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.9170
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2257,10 +2257,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0088
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2670
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3185
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 41
-Patrón solo_pares×solo_pares: QNodes_Φ=0.008794 | Geo_Φ=0.008794 | Acierto=✓ | Error=0.000000 | Speedup=3.82x
+Patrón solo_pares×solo_pares: QNodes_Φ=0.008794 | Geo_Φ=0.008794 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=3.55x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2284,7 +2284,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.5959
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.6382
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2312,10 +2312,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2655
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3092
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 42
-Patrón solo_pares×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=2.96x
+Patrón solo_pares×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=2.82x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2339,7 +2339,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 2.3461
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.6264
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2367,10 +2367,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2665
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3140
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 43
-Patrón desaparece_penultimo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=8.85x
+Patrón desaparece_penultimo×completo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=8.47x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2394,7 +2394,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.8672
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0799
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2422,10 +2422,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2730
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3340
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 44
-Patrón desaparece_penultimo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.13x
+Patrón desaparece_penultimo×desaparece_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.54x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2449,7 +2449,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.9289
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.1225
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2477,10 +2477,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2695
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3366
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 45
-Patrón desaparece_penultimo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.36x
+Patrón desaparece_penultimo×desaparece_primer: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.56x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2504,7 +2504,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.5439
+Horas: 0.00 = Minutos: 0.0 = Segundos: 1.6895
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2532,10 +2532,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2710
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3232
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 46
-Patrón desaparece_penultimo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=6.10x
+Patrón desaparece_penultimo×desaparece_primero_ultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=5.84x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2559,7 +2559,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 5.6755
+Horas: 0.00 = Minutos: 0.1 = Segundos: 6.1883
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2587,10 +2587,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0042
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2810
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3275
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 47
-Patrón desaparece_penultimo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Speedup=19.36x
+Patrón desaparece_penultimo×solo_impares: QNodes_Φ=0.004190 | Geo_Φ=0.004190 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=18.04x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2614,7 +2614,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.1 = Segundos: 4.8251
+Horas: 0.00 = Minutos: 0.1 = Segundos: 5.3146
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2642,10 +2642,10 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0071
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2866
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3310
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 48
-Patrón desaparece_penultimo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Speedup=16.33x
+Patrón desaparece_penultimo×solo_pares: QNodes_Φ=0.007097 | Geo_Φ=0.007097 | Acierto=✓ | Error=0.000000 | Dist=0.000000 | Speedup=15.53x
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
 Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
 ══════════════════════════════════════════════════
@@ -2669,7 +2669,7 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0000
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 1.8747
+Horas: 0.00 = Minutos: 0.0 = Segundos: 2.0225
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 Logger 'sia_preparation' reutilizado (sin reconfiguración)
@@ -2697,17 +2697,75 @@ Mejor Bi-Partición:
 Perdida mínima ( φ ) = 0.0268
 
 Tiempos de ejecución:
-Horas: 0.00 = Minutos: 0.0 = Segundos: 0.2753
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3216
 
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 49
-Patrón desaparece_penultimo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=inf | Speedup=7.10x
+Patrón desaparece_penultimo×desaparece_penultimo: QNodes_Φ=0.000000 | Geo_Φ=0.026790 | Acierto=✗ | Error=1.000000 | Dist=1.000000 | Speedup=6.56x
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'Q-Nodes_strategy' reutilizado (sin reconfiguración)
+══════════════════════════════════════════════════
 
-==================================================
+Q-Nodes fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.0167 0.0167 0.0083 0. 0.0167 0. 0.0083 0.0083 0.0083 0. 0.0167 0.0083 0.0083 0. 0.0083 ]
+Distribucion marginal de la Partición:
+[ 0.0167 0.0167 0.0083 0. 0.0272 0. 0.0083 0.0083 0.0083 0. 0.0167 0.0083 0.0083 0. 0.0083 ]
+
+Mejor Bi-Partición:
+⎛ A ⎞⎛ B,C,D,E,F,G,H,I,J,K,L,M,N,O ⎞
+⎝ ∅ ⎠⎝   b,c,d,e,f,g,j,k,l,m,n,o   ⎠
+
+Perdida mínima ( φ ) = 0.0105
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.2 = Segundos: 14.1119
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+Logger 'sia_preparation' reutilizado (sin reconfiguración)
+Logger 'geometric_strategy' reutilizado (sin reconfiguración)
+Memoria de particiones liberada
+Memoria SIA limpiada
+══════════════════════════════════════════════════
+
+Geometric fue la estrategia de solucion.
+
+Distancia métrica utilizada:
+emd-effect
+Notación utilizada en indexación:
+little-endian
+
+Distribucion marginal del Subsistema:
+[ 0.0167 0.0167 0.0083 0. 0.0167 0. 0.0083 0.0083 0.0083 0. 0.0167 0.0083 0.0083 0. 0.0083 ]
+Distribucion marginal de la Partición:
+[ 0.0270 0.0167 0.0083 0. 0.0167 0. 0.0083 0.0083 0.0083 0. 0.0167 0.0083 0.0083 0. 0.0083 ]
+
+Mejor Bi-Partición:
+⎛ A ⎞⎛ B,C,D,E,F,G,H,I,J,K,L,M,N,O ⎞
+⎝ ∅ ⎠⎝   b,c,d,e,f,g,j,k,l,m,n,o   ⎠
+
+Perdida mínima ( φ ) = 0.0104
+
+Tiempos de ejecución:
+Horas: 0.00 = Minutos: 0.0 = Segundos: 0.3049
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 50
+Patrón PERSONALIZADO: QNodes_Φ=0.010544 | Geo_Φ=0.010362 | Acierto=✗ | Error=0.017197 | Dist=0.017197 | Speedup=42.97x
+
+============================================================
 MÉTRICAS GLOBALES (QNodes vs Geometric):
-Tasa de acierto exacto: 26.5%
-Error relativo máximo: 0.182797
-Speedup promedio: 8.25x
-==================================================
+Tasa de acierto exacto: 26.0%
+Error relativo máximo: 1.000000
+Distancia estructural máxima: 1.000000
+Speedup promedio: 8.37x
+Nivel de calidad: Insuficiente
+Resultado: INVÁLIDO ✗
+============================================================
 
 🎉 ¡ANÁLISIS COMPLETADO EXITOSAMENTE!
 📊 Se analizaron 15 variables
